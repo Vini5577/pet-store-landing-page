@@ -1,0 +1,30 @@
+.video-container {
+  background-color: #F2FAF8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video img {
+  width: 319.3px;
+}
+
+@media (min-width: 1280px) {
+
+  .video-container {
+    height: 600px;
+  }
+
+  .video img {
+    width: 765px;
+  }
+}

@@ -1,0 +1,17 @@
+.logo-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  padding: 42px 36px;
+  flex-wrap: wrap;
+  gap: 25px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 1280px) {
+  .logo-container {
+    padding: 80px 172px;
+    gap: 70px;
+  }
+}
