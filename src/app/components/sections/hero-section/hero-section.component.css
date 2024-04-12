@@ -36,18 +36,6 @@ p {
   gap: 30px;
 }
 
-.button {
-  padding: 16px 50px;
-  background-color: #F8D57E;
-  border-radius: 10px;
-  color: black;
-  transition: .5s;
-}
-
-.button:hover {
-  background-color: #fac848;
-}
-
 .img img {
   width: 320px;
 }

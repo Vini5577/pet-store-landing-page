@@ -8,6 +8,7 @@ import { VideoSectionComponent } from './components/sections/video-section/video
 import { LogoSectionComponent } from './components/sections/logo-section/logo-section.component';
 import { CardSectionComponent } from './components/sections/card-section/card-section.component';
 import { TestimonialSectionComponent } from './components/sections/testimonial-section/testimonial-section.component';
+import { ContactSectionComponent } from './components/sections/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TestimonialSectionComponent } from './components/sections/testimonial-s
     VideoSectionComponent,
     LogoSectionComponent,
     CardSectionComponent,
-    TestimonialSectionComponent
+    TestimonialSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule
