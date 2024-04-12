@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class LogoSectionComponent {
 
   logos = [
-    { marca: "Nestle", src: "assets/Nestle.png" },
-    { marca: "Apple", src: "assets/Beco.png" },
-    { marca: "Amazon", src: "assets/Amazon.png" },
-    { marca: "Google.png", src: "assets/Google.png" },
-    { marca: "Walmart", src: "assets/Walmart.png" }
+    { marca: "Nestle", src: "assets/logos/Nestle.png" },
+    { marca: "Apple", src: "assets/logos/Beco.png" },
+    { marca: "Amazon", src: "assets/logos/Amazon.png" },
+    { marca: "Google.png", src: "assets/logos/Google.png" },
+    { marca: "Walmart", src: "assets/logos/Walmart.png" }
   ]
 
 }

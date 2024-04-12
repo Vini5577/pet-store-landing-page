@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HeroSectionComponent } from './components/sections/hero-section/hero-section.component';
 import { VideoSectionComponent } from './components/sections/video-section/video-section.component';
 import { LogoSectionComponent } from './components/sections/logo-section/logo-section.component';
+import { CardSectionComponent } from './components/sections/card-section/card-section.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { LogoSectionComponent } from './components/sections/logo-section/logo-se
     HeaderComponent,
     HeroSectionComponent,
     VideoSectionComponent,
-    LogoSectionComponent
+    LogoSectionComponent,
+    CardSectionComponent
   ],
   imports: [
     BrowserModule
