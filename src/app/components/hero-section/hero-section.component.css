@@ -51,3 +51,35 @@ p {
 .img img {
   width: 320px;
 }
+
+@media (min-width: 1280px) {
+
+  .hero-container {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    gap: 114px;
+  }
+
+  .text-container {
+    justify-content: start;
+    align-items: start;
+  }
+
+  h2 {
+    text-align: start;
+    width: 423.79px;
+    font-size: 80px;
+  }
+
+  p {
+    text-align: start;
+    padding: 0;
+    width: 466px;
+    font-size: 18px;
+  }
+
+  .img img {
+    width: 500px;
+  }
+}
