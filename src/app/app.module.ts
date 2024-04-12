@@ -7,6 +7,7 @@ import { HeroSectionComponent } from './components/sections/hero-section/hero-se
 import { VideoSectionComponent } from './components/sections/video-section/video-section.component';
 import { LogoSectionComponent } from './components/sections/logo-section/logo-section.component';
 import { CardSectionComponent } from './components/sections/card-section/card-section.component';
+import { TestimonialSectionComponent } from './components/sections/testimonial-section/testimonial-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CardSectionComponent } from './components/sections/card-section/card-se
     HeroSectionComponent,
     VideoSectionComponent,
     LogoSectionComponent,
-    CardSectionComponent
+    CardSectionComponent,
+    TestimonialSectionComponent
   ],
   imports: [
     BrowserModule
