@@ -25,3 +25,15 @@ li {
 .button:hover {
   background-color: #fac848;
 }
+
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 22.5px 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 20px;
+}

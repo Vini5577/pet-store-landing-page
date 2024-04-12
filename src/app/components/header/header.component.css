@@ -3,21 +3,9 @@
   background-color: white;
 }
 
-.logo {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin: 22.5px 20px;
-}
-
 .container {
   width: 100%;
   display: flex;
-}
-
-h1 {
-  color: black;
-  font-size: 20px;
 }
 
 .container {

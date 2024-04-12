@@ -1,0 +1,177 @@
+#footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.update-container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 0;
+}
+
+.email-container {
+  display: grid;
+  gap: 12px;
+}
+
+.input-container input {
+  border-radius: 10px;
+  padding: 11px 20px;
+  border: 1px solid #D0D0D0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.btn-send {
+  border-radius: 10px;
+  background-color: #3366FF;
+  color: white;
+  padding: 11px 133.5px;
+  text-align: center;
+  transition: .5s;
+}
+
+.btn-send:hover {
+  background-color: #123fc7;
+}
+
+.services-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer-card {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.services-container p {
+  font-size: 18px;
+  color: #2D2D2D;
+  font-weight: 600;
+}
+
+ul li a {
+  font-size: 15px;
+  color: #2D2D2D;
+  transition: .5s;
+}
+
+ul li a:hover,
+.sider-bar a:hover {
+  color: #fac848;
+}
+
+.sider-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sider-bar a, .sider-bar p {
+  color: #2D2D2D;
+  font-weight: 600;
+  font-size: 18px;
+  transition: .5s;
+}
+
+.terms-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sider-bar span {
+  margin-left: 10px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.icon ng-icon {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  background-color: #2D2D2D;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: white;
+  transition: .2s;
+}
+
+.icon ng-icon:hover {
+  background-color: #fac848;
+}
+
+@media(min-width: 1280px) {
+
+  #footer {
+    flex-direction: row;
+    gap: 233px;
+    padding: 70px 80.5px;
+  }
+
+  .update-container {
+    gap: 70px;
+  }
+
+  .input-container {
+    flex-direction: row;
+    width: 50%;
+  }
+
+  .input-container input {
+    flex-grow: 2;
+  }
+
+  .btn-send {
+    padding: 11px 31.5px;
+  }
+
+  .services-container {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .footer-card {
+    width: 100px;
+  }
+
+  .footer-card p {
+    font-size: 18px;
+  }
+
+  .sider-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 33px 80px 70px;
+  }
+
+  .terms-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+}
+
